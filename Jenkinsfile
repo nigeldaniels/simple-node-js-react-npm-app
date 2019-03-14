@@ -6,7 +6,7 @@ pipeline {
         }
     }
   
-    enviornment { 
+    environment { 
  	CI = 'true'
     }   
   
