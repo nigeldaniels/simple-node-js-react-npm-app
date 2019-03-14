@@ -18,7 +18,7 @@ stages {
             }
         }
 
-	stage('Test') {
+	stage('mytest') {
 	    steps {
 		sh './jenkins/scripts/test.sh' 
             }
